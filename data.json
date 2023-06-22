@@ -1,0 +1,18 @@
+{
+  "products": [
+    {
+      "product": "Apple",
+      "price": 0.52,
+      "quantity": 1,
+      "id": 0
+    },
+    {
+      "product": "Banana",
+      "price": 0.67,
+      "quantity": 1,
+      "id": 1
+    }
+  ],
+  "purchase": [
+  ]
+}
