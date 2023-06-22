@@ -1,0 +1,23 @@
+/* Table buttons */
+
+.btn {
+  border-radius: 3px;
+  color: #ffffff;
+  margin-left: 5px;
+}
+
+.btn__minus {
+  background-color: #ffa500;
+  border: 1px solid #ffa500;
+
+}
+
+.btn__plus {
+  background-color: #008000;
+  border: 1px solid #008000;
+}
+
+.btn__delete {
+  background-color: #e80808f7;
+  border: 1px solid #e80808f7;
+}

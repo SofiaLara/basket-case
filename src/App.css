@@ -1,0 +1,70 @@
+/* Start page styles */
+
+h1, h2 {
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+hr {
+  border: 1px solid #d3d3d3d3;
+  margin: 20px;
+  width: 90%;
+}
+
+.right {
+  text-align: right;
+}
+
+/* Table wrapper styles*/
+
+.table-wrapper {
+  border: 1px solid #d3d3d3d3;
+}
+
+.table-wrapper__title {
+  background-color: #d3d3d3d3;
+  padding: 10px 20px;
+}
+
+.table-wrapper__content {
+  overflow-x: scroll;
+  padding: 5px;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets and up */
+  .table-wrapper__content {
+    padding: 20px;
+  }
+}
+
+/* Button styles*/
+
+.buy-button {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px 0;
+}
+
+.btn {
+  border-radius: 3px;
+  color: #ffffff;
+  margin-left: 5px;
+}
+
+.btn__submit {
+  padding: 10px 20px;
+  border-radius: 50px;
+  background-color: #1bb3b3;
+  border: 1px solid #1bb3b3;
+  font-weight: 600;
+}

@@ -1,0 +1,10 @@
+/* Total cost */
+
+tfoot tr {
+    color: #808080;
+}
+
+.total-cost{
+    border-top: 1px solid #f2f2f2;
+    color: #000000;
+}
